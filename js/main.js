@@ -296,10 +296,10 @@ jQuery(document).ready(function($) {
 
   		if (st > 90) {
   			$('.js-sticky-header').addClass('shrink');
-  			$("#logo").attr({ "src": "C:/Users/himanshud30/Desktop/TEDxCAJC-master/TED/images/TEDx_logo.svg" });
+  			$("#logo").attr({ "src": "images/TEDx_logo.svg" });
   		} else {
   			$('.js-sticky-header').removeClass('shrink');
-  			$("#logo").attr({ "src": "C:/Users/himanshud30/Desktop/TEDxCAJC-master/TED/images/tedlogo.svg" });
+  			$("#logo").attr({ "src": "images/tedlogo.svg" });
   		}
 
   	}) 
